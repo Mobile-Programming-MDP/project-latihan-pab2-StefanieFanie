@@ -196,7 +196,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> sendNotificationDevice(
       String token, String title, String body, String image) async {
-    final url = Uri.parse('https://fasum-cloud-tan.vercel.app//send-to-device');
+    final url = Uri.parse('https://fasum-cloud-tan.vercel.app/send-to-device');
     await http.post(
       url,
       headers: {
